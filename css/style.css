@@ -96,6 +96,9 @@ ul, li {
 
 #product-list ul.list {
 	margin-top: 60px;
+	border-radius: 8px;
+	box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+	overflow: hidden;
 }
 
 #product-list h2, #product-list p {
@@ -104,13 +107,12 @@ ul, li {
 }
 
 #product-list ul li {
-	margin: 0 0 20px 0;
+	margin: 0;
 	padding: 40px;
 	background: rgba(255,255,255,0.8);
-	border-radius: 8px;
-	box-shadow: 0 4px 16px rgba(0,0,0,0.15);
 	position: relative;
 	min-height: 60px;
+	border-bottom: 1px solid #DDD;
 }
 
 #product-list ul li .description {
@@ -126,8 +128,9 @@ ul, li {
 	text-align: right;
 }
 
-#product-list .extra-info {
-	padding: 0 40px;
+#product-list li.extra-info {
+	padding: 20px 40px;
+	min-height: auto;
 }
 
 .social {

@@ -161,6 +161,9 @@ ul, li {
 		padding: 20px;
 		min-height: 48px;
 	}
+	#product-list li.extra-info {
+		padding: 10px 20px;
+	}
 	#product-list ul li .price  {
 		font-size: 20px;
 		top: 20px;
